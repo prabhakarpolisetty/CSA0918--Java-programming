@@ -1,0 +1,36 @@
+Pool size: 1
+Successful files: 4
+Failed files: 3
+Processing time: 65.563 ms
+Failure: score04.txt -> IllegalArgumentException: Score must be 0 to 100
+Failure: README.txt -> NumberFormatException: For input string: "Delete or rename one score file to test missing-file handling. This file is ignored by the processor."
+Failure: corrupt.txt -> NumberFormatException: For input string: "not-a-number"
+Summary total: 7
+
+Pool size: 2
+Successful files: 4
+Failed files: 3
+Processing time: 5.386 ms
+Failure: score04.txt -> IllegalArgumentException: Score must be 0 to 100
+Failure: README.txt -> NumberFormatException: For input string: "Delete or rename one score file to test missing-file handling. This file is ignored by the processor."
+Failure: corrupt.txt -> NumberFormatException: For input string: "not-a-number"
+Summary total: 7
+
+Pool size: 4
+Successful files: 4
+Failed files: 3
+Processing time: 0.496 ms
+Failure: score04.txt -> IllegalArgumentException: Score must be 0 to 100
+Failure: README.txt -> NumberFormatException: For input string: "Delete or rename one score file to test missing-file handling. This file is ignored by the processor."
+Failure: corrupt.txt -> NumberFormatException: For input string: "not-a-number"
+Summary total: 7
+
+Pool size: 8
+Successful files: 4
+Failed files: 3
+Processing time: 1.650 ms
+Failure: score04.txt -> IllegalArgumentException: Score must be 0 to 100
+Failure: README.txt -> NumberFormatException: For input string: "Delete or rename one score file to test missing-file handling. This file is ignored by the processor."
+Failure: corrupt.txt -> NumberFormatException: For input string: "not-a-number"
+Summary total: 7
+

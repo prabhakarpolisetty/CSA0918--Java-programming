@@ -1,0 +1,9 @@
+Saved answer01.pdf
+Error: Could not store answer02.pdf
+Cause: Disk quota exceeded
+
+Additional portal scenarios:
+Error: Exam window has closed
+Error: Student is not registered
+Error: Could not store answer05.pdf
+Cause: Disk quota exceeded

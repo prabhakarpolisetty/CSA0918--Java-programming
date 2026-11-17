@@ -1,0 +1,6 @@
+Sum of tokens collected: 210 (expected 210)
+Safe transfers completed.
+Wallet A balance: 1000
+Wallet B balance: 1000
+Total balance: 2000
+Lock ordering prevents circular wait.

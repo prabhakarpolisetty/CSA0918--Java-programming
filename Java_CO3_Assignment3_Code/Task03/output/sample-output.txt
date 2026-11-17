@@ -1,0 +1,5 @@
+Running manual close() version
+Manual report path: Task03/output/manual-report.txt
+
+Running try-with-resources version
+Try-with-resources report path: Task03/output/try-with-resources-report.txt

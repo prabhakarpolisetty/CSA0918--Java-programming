@@ -1,0 +1,2 @@
+Store 2 sales: 18300
+Store 2 returns: 300

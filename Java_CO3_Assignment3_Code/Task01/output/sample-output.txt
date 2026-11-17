@@ -1,0 +1,2 @@
+Enter account number: Enter withdrawal amount: Withdrawal successful. Remaining balance: 9500.00
+ATM session ended. Please collect your card.

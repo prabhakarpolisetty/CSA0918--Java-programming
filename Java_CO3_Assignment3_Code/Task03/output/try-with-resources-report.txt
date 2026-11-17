@@ -1,0 +1,5 @@
+DAILY SALES REPORT
+Store 1 sales: 12500
+Store 1 returns: 500
+Store 2 sales: 18300
+Store 2 returns: 300

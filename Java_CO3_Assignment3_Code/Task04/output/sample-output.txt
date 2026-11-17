@@ -1,0 +1,14 @@
+Using Thread subclass:
+Station A alive after start: true
+Station C scanned 2 scripts
+Station A scanned 3 scripts
+Station B scanned 4 scripts
+Station D scanned 5 scripts
+All Thread stations completed.
+
+Using Runnable:
+Station C scanned 2 scripts
+Station A scanned 3 scripts
+Station B scanned 4 scripts
+Station D scanned 5 scripts
+All Runnable stations completed.
