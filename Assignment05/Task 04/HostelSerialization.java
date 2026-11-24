@@ -1,0 +1,5 @@
+import java.io.*;import java.util.*;
+class Resident implements Serializable{private static final long serialVersionUID=1L;String name,regNo,phone;transient String password;transient Object databaseConnection;Resident(String n,String r,String p,String ph){name=n;regNo=r;password=p;phone=ph;}}
+class Room implements Serializable{private static final long serialVersionUID=1L;int number;List<Resident> residents=new ArrayList<>();Room(int n){number=n;}}
+class Hostel implements Serializable{private static final long serialVersionUID=1L;List<Room> rooms=new ArrayList<>();}
+public class HostelSerialization{public static void main(String[] a)throws Exception{Hostel h=new Hostel();Room r=new Room(101);r.residents.add(new Resident("Anu","192311001","secret","9876543210"));h.rooms.add(r);try(ObjectOutputStream o=new ObjectOutputStream(new FileOutputStream("hostel.dat"))){o.writeObject(h);}try(ObjectInputStream i=new ObjectInputStream(new FileInputStream("hostel.dat"))){Hostel x=(Hostel)i.readObject();Resident v=x.rooms.get(0).residents.get(0);System.out.println(v.name+" "+v.regNo+" "+v.phone);System.out.println("Password: "+v.password);}}}
